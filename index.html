@@ -7,15 +7,15 @@
   </head>
   <body>
     <!--Banner-->
-    <div class="banner">
+    <div class="banner" id="banner">
       <h1>Broadway Design</h1>
       <nav>
         <ul>
-          <li>Home</li>
-          <li>Process</li>
-          <li>Work</li>
-          <li>Team</li>
-          <li>Contact</li>
+          <li><a href="#banner">Home</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -23,7 +23,7 @@
 
     <!--Section One-->
     <div>
-      <h2> Our Process</h2>
+      <h2 id="process"> Our Process</h2>
       <img src="resources/images/identify.svg" />
       <h3>Identify</h3>
       <p>We focus on the most important details.</p>
@@ -38,22 +38,28 @@
 
     <!--Section Two-->
     <div>
-      <h3 class="banner white">Designed in New York</h3>
-      <h3>Portfolio</h3>
+      <h3 class="banner white" id="about">Designed in New York</h3>
+      <h3 id="work">Portfolio</h3>
       <p>Coming Soon</p>
-      <h3>Team</h3>
+      <h3 id="team">Team</h3>
       <p>We're Hiring!</p>
-      <h3>Contact</h3>
+      <h3 id="contact">Contact</h3>
       <p>Phone: (555)-555-5555<br />
       E-mail: test@example.com<br />
     Twitter: @test</p>
     </div>
     <!--End Section Two-->
-    <div class="footer">
-      <p >&copy;Broadway 2016</p>
-      <nav>Home About Work Team Contact</nav>
-    </div>
+
     <!--Footer-->
+    <div class="footer ">
+      <p>&copy;Broadway 2016
+      <a href="#banner">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a></p>
+    </div>
+    <!--End Footer-->
 
   </body>
 </html>
